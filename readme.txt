@@ -13,3 +13,5 @@ in the database. The function checks that the first name and last name match wit
 There is also a Delete link, which alllows the user to input the information for an editor and remove it entirely from the database. Demonstrating D.
 C.R.U.D
 
+Added unit tests to check for addition, multiplication, and capitalisation. As far as my knowledge goes on that subject as we were'nt shown in detail.
+In future I probably won't make many changes to this file, but will keep it as a point of reference as I keep working on my other projects.
