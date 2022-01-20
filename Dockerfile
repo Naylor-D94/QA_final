@@ -4,6 +4,8 @@ WORKDIR /usr/webapp
 
 RUN pip install flask
 RUN pip install flask-mysqldb
+RUN pip install
+RUN pip install pytest 
 
 COPY ./webapp/app.py app.py
 
