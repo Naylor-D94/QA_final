@@ -15,3 +15,13 @@ C.R.U.D
 
 Added unit tests to check for addition, multiplication, and capitalisation. As far as my knowledge goes on that subject as we were'nt shown in detail.
 In future I probably won't make many changes to this file, but will keep it as a point of reference as I keep working on my other projects.
+
+I have then setup Jenkins, allowing Jenkins user access to Docker, then Jenkins clones the repo, runs a script for docker-compose up to build the containers,
+then moves on to the test stage to run the test_app.py with pytest.
+It is linked to Giuhub push actions via a webhookrelay to activate the webhook on a local machine. Running this command will connect the localmachine to my relay
+with my credentials.
+
+relay login -k 4371b82d-8c80-49be-a9b6-71acc4d9724c -s fHoHxXtWkImf
+
+The Jenkins pipeline has no deployment stage, as we never covered Docker swarm on the course due to time constraints and this is the requested deployment method.
+
