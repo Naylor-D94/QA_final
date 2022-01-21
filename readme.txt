@@ -25,3 +25,8 @@ relay login -k 4371b82d-8c80-49be-a9b6-71acc4d9724c -s fHoHxXtWkImf
 
 The Jenkins pipeline has no deployment stage, as we never covered Docker swarm on the course due to time constraints and this is the requested deployment method.
 
+Video link to demonstration : 
+https://drive.google.com/file/d/1u5cMg_cuBQEBhQkQGT3FMKD3oLZyJHej/view?usp=sharing
+
+Video displays full CRUD functionality on the app. Hosted in Docker alone due to the Jenkins file having a close function, then hosted on Jenkins to demonstrate 
+that the pipeline works as expected. Followed by a view at the Jenkins code.
